@@ -43,8 +43,8 @@
                 <configuration>
                     <instructions>
                         <Export-Package>
-							javax.servlet.jsp.jstl.*;version=1.1.2,
-							org.apache.taglibs.standard.*;version=1.1.2
+							javax.servlet.jsp.jstl.*;version=${pom.version},
+							org.apache.taglibs.standard.*;version=${pom.version}
                         </Export-Package>
                         <Import-Package>
 							!org.apache.xalan.*,
@@ -73,23 +73,25 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.4</version>
+			<scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jsp-api</artifactId>
             <version>2.0</version>
-        </dependency>
+			<scope>provided</scope>
+		</dependency>
 		
 		<dependency>
 		    <groupId>jstl</groupId>
 		    <artifactId>jstl</artifactId>
-		    <version>1.1.2</version>
+		    <version>${pom.version}</version>
 		</dependency>
 		
 		<dependency>
 		    <groupId>taglibs</groupId>
 		    <artifactId>standard</artifactId>
-		    <version>1.1.2</version>
+		    <version>${pom.version}</version>
 		</dependency>
 		
 		<!--

@@ -44,10 +44,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-scr-plugin</artifactId>
-            </plugin>
         
             <plugin>
                 <groupId>org.apache.felix</groupId>
@@ -56,8 +52,8 @@
                 <configuration>
                     <instructions>
                         <Export-Package>
-							javax.servlet.jsp.jstl.*;version=${pom.version},
-							org.apache.taglibs.standard.*;version=${pom.version}
+							javax.servlet.jsp.jstl.*;version=${project.version},
+							org.apache.taglibs.standard.*;version=${project.version}
                         </Export-Package>
                         <Import-Package>
 							!org.apache.xalan.*,

@@ -33,7 +33,7 @@
   </scm>  
 
     <artifactId>org.liveSense.scripting.jsp.taglib.jstl</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-1.1.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>liveSense JSP Standard Tag Library</name>
     <description>

@@ -35,7 +35,7 @@
     <artifactId>org.liveSense.scripting.jsp.taglib.jstl</artifactId>
     <version>1.0.1-1.1.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>liveSense JSP Standard Tag Library</name>
+    <name>liveSense :: Scripting :: JSP Standard Tag Library</name>
     <description>
         JSP Standard Tag Library for Apache Sling JSP support
     </description>

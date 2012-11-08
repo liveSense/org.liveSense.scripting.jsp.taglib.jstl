@@ -1,7 +1,9 @@
 # [liveSense :: Scripting :: JSP Standard Tag Library - org.liveSense.scripting.jsp.taglib.jstl](http://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl)
+
 ## Description
 JSP Standard Tag Library for Apache Sling JSP support
-## Exported packages
+
+## OSGi Exported packages
 * javax.servlet.jsp.jstl.core(1.0.1.SNAPSHOT)
 * javax.servlet.jsp.jstl.fmt(1.0.1.SNAPSHOT)
 * javax.servlet.jsp.jstl.sql(1.0.1.SNAPSHOT)
@@ -29,7 +31,8 @@ JSP Standard Tag Library for Apache Sling JSP support
 * org.apache.taglibs.standard.tag.rt.xml(1.0.1.SNAPSHOT)
 * org.apache.taglibs.standard.tei(1.0.1.SNAPSHOT)
 * org.apache.taglibs.standard.tlv(1.0.1.SNAPSHOT)
-## Dependencies
+
+## OSGi Dependencies
 * __System Bundle - org.apache.felix.framework (3.0.8)__
 	* javax.naming
 	* javax.sql
@@ -49,4 +52,8 @@ JSP Standard Tag Library for Apache Sling JSP support
 	* javax.servlet.jsp
 	* javax.servlet.jsp.el
 	* javax.servlet.jsp.tagext
-## Embedded JARs
+
+## OSGi Embedded JARs
+
+## Dependency Graph
+![alt text](http://raw.github.com.everydayimmirror.in/liveSense/org.liveSense.scripting.jsp.taglib.jstl/master/osgidependencies.svg "")

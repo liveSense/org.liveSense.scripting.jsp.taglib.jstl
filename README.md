@@ -33,25 +33,38 @@ JSP Standard Tag Library for Apache Sling JSP support
 * org.apache.taglibs.standard.tlv(1.0.1.SNAPSHOT)
 
 ## OSGi Dependencies
-* __System Bundle - org.apache.felix.framework (3.0.8)__
+* __System Bundle - org.apache.felix.framework (4.0.3)__
 	* javax.naming
 	* javax.sql
 	* javax.xml.parsers
+	* javax.xml.parsers
+	* javax.xml.transform
 	* javax.xml.transform
 	* javax.xml.transform.dom
+	* javax.xml.transform.dom
+	* javax.xml.transform.sax
 	* javax.xml.transform.sax
 	* javax.xml.transform.stream
+	* javax.xml.transform.stream
+	* org.w3c.dom
 	* org.w3c.dom
 	* org.w3c.dom.traversal
+	* org.w3c.dom.traversal
+	* org.xml.sax
 	* org.xml.sax
 	* org.xml.sax.helpers
-* __Apache Felix Http Jetty - org.apache.felix.http.jetty (2.2.0)__
-	* javax.servlet
-	* javax.servlet.http
-* __Apache Sling Scripting JSP Support - org.apache.sling.scripting.jsp (2.0.24)__
+	* org.xml.sax.helpers
+* __OPS4J Pax Web - Jsp Support - org.ops4j.pax.web.pax-web-jsp (3.0.0.M3)__
+	* javax.servlet.jsp
 	* javax.servlet.jsp
 	* javax.servlet.jsp.el
+	* javax.servlet.jsp.el
 	* javax.servlet.jsp.tagext
+* __Servlet 3.0 - org.apache.geronimo.specs.geronimo-servlet_3.0_spec (1.0)__
+	* javax.servlet
+	* javax.servlet
+	* javax.servlet.http
+	* javax.servlet.http
 
 ## OSGi Embedded JARs
 

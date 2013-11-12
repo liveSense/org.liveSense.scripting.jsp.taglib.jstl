@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-scripting-jsp-taglib-jstl" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-scripting-jsp-taglib-jstl" version="${liveSense.scripting.jsp.taglib.jstl.version}" description="liveSense scripting jsp taglib jstl">
+		<bundle>mvn:com.github.livesense/org.liveSense.scripting.jsp.taglib.jstl/${liveSense.scripting.jsp.taglib.jstl.version}</bundle>
+	</feature>
+</features>

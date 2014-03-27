@@ -27,11 +27,11 @@
       <version>2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
   </parent>
-  <scm>
-      <connection>scm:git:git://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git</connection>
-      <developerConnection>scm:git:git://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git</developerConnection>
-      <url>https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl</url>
-  </scm>  
+	<scm>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.scripting.jsp.taglib.jstl</url>
+	</scm>
 
     <artifactId>org.liveSense.scripting.jsp.taglib.jstl</artifactId>
     <version>1.0.1-1.1.2-SNAPSHOT</version>
